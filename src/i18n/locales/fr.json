@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "projects": "Voir les projets",
+    "contact": "Contact",
+    "linkedin": "Profil LinkedIn"
+  },
+  "hero": {
+    "name": "Wei Xie",
+    "title": "Ingénieur Fullstack",
+    "positioning": "Conception de plateformes d’entreprise modulaires et de systèmes SaaS évolutifs. Focalisé sur une architecture frontend moderne avec Vue 3 et TypeScript, associée à des services backend robustes en ASP.NET Core."
+  },
+  "about": {
+    "title": "À propos",
+    "text": "Je suis Ingénieur Fullstack avec plus de 10 ans d’expérience dans la construction et l’évolution de plateformes SaaS d’entreprise.\n\nMon travail se concentre sur la modernisation des systèmes existants, l’amélioration des frontières architecturales et la conception de solutions frontend et backend évolutives. Je conçois des structures modulaires qui restent maintenables à mesure que la complexité des systèmes augmente.\n\nJ’accorde de l’importance à une architecture propre, à des décisions d’ingénierie pragmatiques et à la durabilité des systèmes sur le long terme."
+  },
+  "expertise": {
+    "title": "Expertise",
+    "frontend": {
+      "title": "Architecture Frontend",
+      "description": "Conception d’écosystèmes de composants évolutifs et de structures frontend modulaires pour des applications d’entreprise.\n\nTechnologies : Vue 3 · Nuxt.js · TypeScript · Micro Frontends · Vuetify"
+    },
+    "backend": {
+      "title": "Systèmes Backend",
+      "description": "Construction de services REST et d’architectures backend modulaires avec ASP.NET Core et C#.\n\nTechnologies : ASP.NET Core · C# · API REST · LoopBack · Laravel · SQL Server"
+    },
+    "ecommerce": {
+      "title": "E-commerce & Plateformes",
+      "description": "Architecture et mise à l’échelle de plateformes transactionnelles avec de fortes exigences de disponibilité.\n\nTechnologies : Magento · AWS · Redis · Microservices"
+    },
+    "devops": {
+      "title": "DevOps & CI/CD",
+      "description": "Conception de pipelines de build et de déploiement automatisés pour améliorer la fiabilité des releases et la stabilité opérationnelle.\n\nTechnologies : GitHub Actions · Docker · Kubernetes · AWS OpsWorks"
+    }
+  },
+  "projects": {
+    "title": "Projets sélectionnés",
+    "impact": "Impact",
+    "solendroPlatform": {
+      "title": "Évolution de la plateforme Solendro",
+      "tech": "Nuxt.js · LoopBack · Magento · AWS OpsWorks · Laravel",
+      "summary1": "Pilotage de l’évolution architecturale d’une plateforme e-commerce internationale, en passant d’un système Magento hérité à une architecture moderne orientée API avec Nuxt.js et LoopBack.",
+      "summary2": "Découplage progressif de la logique métier et amélioration des workflows de déploiement pour accroître la maintenabilité et l’évolutivité.",
+      "impact": "Modernisation de l’architecture de la plateforme et accompagnement de l’expansion internationale (Espagne et Royaume‑Uni)."
+    },
+    "dataAnalytics": {
+      "title": "Plateforme Data & Analytics",
+      "tech": "Laravel · SQL · Agrégation de données",
+      "summary1": "Conception et mise en place d’un système d’analytics interne pour centraliser les rapports opérationnels et métier sur plusieurs workflows.",
+      "summary2": "Construction de tableaux de bord sur mesure et de pipelines d’agrégation de données pour améliorer la visibilité système et l’aide à la décision.",
+      "impact": "Augmentation de la transparence opérationnelle et des capacités d’analyse data‑driven."
+    },
+    "enterpriseCrm": {
+      "title": "Modernisation d’un CRM d’entreprise",
+      "tech": "Vue 3 · TypeScript · ASP.NET Core · API REST",
+      "summary1": "Contribution à la modernisation d’une plateforme CRM multi‑tenant via le refactoring de composants hérités et l’amélioration des frontières architecturales.",
+      "summary2": "Introduction de structures frontend modulaires et renforcement de l’intégration des services via des systèmes backend REST.",
+      "impact": "Amélioration de la maintenabilité, de l’évolutivité et de la clarté architecturale."
+    },
+    "microFrontends": {
+      "title": "Conception d’architecture micro‑frontend",
+      "tech": "Vue 3 · TypeScript · Module Federation · CI/CD",
+      "summary1": "Conception d’une architecture frontend modulaire permettant un développement évolutif entre équipes et produits.",
+      "summary2": "Mise en place de systèmes de composants partagés et de frontières de domaine claires pour réduire le couplage et améliorer la durabilité du code à long terme.",
+      "impact": "Amélioration de l’efficacité du développement cross‑équipes et de l’évolutivité du frontend."
+    }
+  },
+  "experience": {
+    "title": "Expérience",
+    "eudonet": {
+      "role": "Ingénieur Fullstack R&D",
+      "company": "Eudonet",
+      "location": "Courbevoie, France",
+      "period": "Sept 2021– Présent",
+      "description": "Contribution à la modernisation d’un CRM d’entreprise et à l’évolution des plateformes internes."
+    },
+    "solendro": {
+      "role": "Développeur Lead",
+      "company": "Solendro",
+      "location": "Paris, France",
+      "period": "Juil 2014– Sept 2021",
+      "description": "Pilotage de l’évolution technique d’une plateforme e-commerce internationale et de ses systèmes de support."
+    }
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "emailLabel": "E-mail",
+    "linkedinLabel": "Profil LinkedIn"
+  },
+  "footer": {
+    "copyright": "© {year} Wei Xie. Tous droits réservés."
+  }
+}

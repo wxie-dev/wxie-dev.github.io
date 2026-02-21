@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "projects": "View Projects",
+    "contact": "Contact",
+    "linkedin": "LinkedIn"
+  },
+  "hero": {
+    "name": "Wei Xie",
+    "title": "Fullstack Engineer",
+    "positioning": "Designing modular enterprise platforms and scalable SaaS systems. Focused on modern frontend architecture with Vue 3 and TypeScript, paired with robust backend services in ASP.NET Core."
+  },
+  "about": {
+    "title": "About",
+    "text": "I am a Fullstack Engineer with over 10 years of experience building and evolving enterprise SaaS platforms.\n\nMy work centers on modernizing legacy systems, improving architectural boundaries, and designing scalable frontend and backend solutions. I focus on creating modular structures that remain maintainable as systems grow in complexity.\n\nI value clean architecture, pragmatic engineering decisions, and long-term system sustainability."
+  },
+  "expertise": {
+    "title": "Expertise",
+    "frontend": {
+      "title": "Frontend Architecture",
+      "description": "Designing scalable component ecosystems and modular frontend structures for enterprise applications.\n\nTechnologies: Vue 3 · Nuxt.js · TypeScript · Micro Frontends · Vuetify"
+    },
+    "backend": {
+      "title": "Backend Systems",
+      "description": "Building REST-based services and modular backend architectures using ASP.NET Core and C#.\n\nTechnologies: ASP.NET Core · C# · REST APIs · LoopBack · Laravel · SQL Server"
+    },
+    "ecommerce": {
+      "title": "E-commerce & Platforms",
+      "description": "Architecting and scaling transactional platforms with high availability requirements.\n\nTechnologies: Magento · AWS · Redis · Microservices"
+    },
+    "devops": {
+      "title": "DevOps & CI/CD",
+      "description": "Designing automated build and deployment pipelines to improve release reliability and operational stability.\n\nTechnologies: GitHub Actions · Docker · Kubernetes · AWS OpsWorks"
+    }
+  },
+  "projects": {
+    "title": "Selected Projects",
+    "impact": "Impact",
+    "solendroPlatform": {
+      "title": "Solendro Platform Evolution",
+      "tech": "Nuxt.js · LoopBack · Magento · AWS OpsWorks · Laravel",
+      "summary1": "Led the architectural evolution of an international e-commerce platform, transitioning from a legacy Magento system to a modern API-driven architecture using Nuxt.js and LoopBack.",
+      "summary2": "Progressively decoupled business logic and improved deployment workflows to increase maintainability and scalability.",
+      "impact": "Modernized platform architecture and supported international expansion (Spain & UK)."
+    },
+    "dataAnalytics": {
+      "title": "Data & Analytics Platform",
+      "tech": "Laravel · SQL · Data Aggregation",
+      "summary1": "Designed and implemented an internal analytics system to centralize operational and business reporting across multiple workflows.",
+      "summary2": "Built custom dashboards and data aggregation pipelines to improve system visibility and decision-making.",
+      "impact": "Increased operational transparency and data-driven insights."
+    },
+    "enterpriseCrm": {
+      "title": "Enterprise CRM Modernization",
+      "tech": "Vue 3 · TypeScript · ASP.NET Core · REST APIs",
+      "summary1": "Contributing to the modernization of a multi-tenant enterprise CRM platform by refactoring legacy components and improving architectural boundaries.",
+      "summary2": "Introduced modular frontend structures and strengthened service integration through REST-based backend systems.",
+      "impact": "Improved maintainability, scalability, and architectural clarity."
+    },
+    "microFrontends": {
+      "title": "Micro Frontend Architecture Design",
+      "tech": "Vue 3 · TypeScript · Module Federation · CI/CD",
+      "summary1": "Designed modular frontend architecture to enable scalable development across teams and products.",
+      "summary2": "Established shared component systems and clear domain boundaries to reduce coupling and improve long-term codebase sustainability.",
+      "impact": "Enhanced cross-team development efficiency and frontend scalability."
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "eudonet": {
+      "role": "Fullstack R&D Engineer",
+      "company": "Eudonet",
+      "location": "Courbevoie, France",
+      "period": "Sep 2021 – Present",
+      "description": "Contributing to enterprise CRM modernization and internal platform evolution."
+    },
+    "solendro": {
+      "role": "Lead Developer",
+      "company": "Solendro",
+      "location": "Paris, France",
+      "period": "Jul 2014 – Sep 2021",
+      "description": "Led the technical evolution of an international e-commerce platform and its supporting systems."
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn"
+  },
+  "footer": {
+    "copyright": "© {year} Wei Xie. All rights reserved."
+  }
+}
