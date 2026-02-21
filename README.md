@@ -1,4 +1,4 @@
-# Wei Xie - Senior Fullstack Engineer
+# Wei Xie - Fullstack Engineer
 
 This is a personal website for Wei Xie, built with Vue 3, TypeScript, Tailwind CSS, and Vite.
 The design focuses on a clean, professional, and minimal aesthetic suitable for a senior engineer.
