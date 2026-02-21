@@ -3,8 +3,14 @@ import { useI18n } from 'vue-i18n'
 
 const { locale } = useI18n()
 
+const savedLocale = window.localStorage.getItem('locale')
+if (savedLocale === 'en' || savedLocale === 'fr') {
+  locale.value = savedLocale
+}
+
 const switchLanguage = (lang: string) => {
   locale.value = lang
+  window.localStorage.setItem('locale', lang)
 }
 </script>
 

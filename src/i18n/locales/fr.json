@@ -7,7 +7,7 @@
   "hero": {
     "name": "Wei Xie",
     "title": "Ingénieur Fullstack",
-    "positioning": "Conception de plateformes d’entreprise modulaires et de systèmes SaaS évolutifs. Focalisé sur une architecture frontend moderne avec Vue 3 et TypeScript, associée à des services backend robustes en ASP.NET Core."
+    "positioning": "Conception de plateformes d’entreprise modulaires et de systèmes SaaS évolutifs.\nFocalisé sur une architecture frontend Vue 3 + TypeScript, appuyée par des services backend robustes en ASP.NET Core."
   },
   "about": {
     "title": "À propos",
@@ -17,19 +17,19 @@
     "title": "Expertise",
     "frontend": {
       "title": "Architecture Frontend",
-      "description": "Conception d’écosystèmes de composants évolutifs et de structures frontend modulaires pour des applications d’entreprise.\n\nTechnologies : Vue 3 · Nuxt.js · TypeScript · Micro Frontends · Vuetify"
+      "description": "Conception d’écosystèmes de composants évolutifs et de structures frontend modulaires pour des applications d’entreprise."
     },
     "backend": {
       "title": "Systèmes Backend",
-      "description": "Construction de services REST et d’architectures backend modulaires avec ASP.NET Core et C#.\n\nTechnologies : ASP.NET Core · C# · API REST · LoopBack · Laravel · SQL Server"
+      "description": "Construction de services REST et d’architectures backend modulaires avec ASP.NET Core et C#."
     },
     "ecommerce": {
       "title": "E-commerce & Plateformes",
-      "description": "Architecture et mise à l’échelle de plateformes transactionnelles avec de fortes exigences de disponibilité.\n\nTechnologies : Magento · AWS · Redis · Microservices"
+      "description": "Architecture et mise à l’échelle de plateformes transactionnelles avec de fortes exigences de disponibilité."
     },
     "devops": {
       "title": "DevOps & CI/CD",
-      "description": "Conception de pipelines de build et de déploiement automatisés pour améliorer la fiabilité des releases et la stabilité opérationnelle.\n\nTechnologies : GitHub Actions · Docker · Kubernetes · AWS OpsWorks"
+      "description": "Conception de pipelines de build et de déploiement automatisés pour améliorer la fiabilité des releases et la stabilité opérationnelle."
     }
   },
   "projects": {
@@ -38,30 +38,30 @@
     "solendroPlatform": {
       "title": "Évolution de la plateforme Solendro",
       "tech": "Nuxt.js · LoopBack · Magento · AWS OpsWorks · Laravel",
-      "summary1": "Pilotage de l’évolution architecturale d’une plateforme e-commerce internationale, en passant d’un système Magento hérité à une architecture moderne orientée API avec Nuxt.js et LoopBack.",
-      "summary2": "Découplage progressif de la logique métier et amélioration des workflows de déploiement pour accroître la maintenabilité et l’évolutivité.",
-      "impact": "Modernisation de l’architecture de la plateforme et accompagnement de l’expansion internationale (Espagne et Royaume‑Uni)."
+      "summary1": "Pilotage de l’évolution architecturale d’une plateforme e-commerce internationale, en passant d’un système Magento hérité à une architecture moderne orientée API.",
+      "summary2": "Amélioration de la modularité, des workflows de déploiement et de la maintenabilité à long terme.",
+      "impact": "Modernisation de l’architecture de la plateforme et soutien à l’expansion internationale."
     },
     "dataAnalytics": {
       "title": "Plateforme Data & Analytics",
-      "tech": "Laravel · SQL · Agrégation de données",
-      "summary1": "Conception et mise en place d’un système d’analytics interne pour centraliser les rapports opérationnels et métier sur plusieurs workflows.",
-      "summary2": "Construction de tableaux de bord sur mesure et de pipelines d’agrégation de données pour améliorer la visibilité système et l’aide à la décision.",
-      "impact": "Augmentation de la transparence opérationnelle et des capacités d’analyse data‑driven."
+      "tech": "Laravel · MySQL · Agrégation de données",
+      "summary1": "Conception d’un système d’analytics interne pour centraliser les rapports opérationnels et métier.",
+      "summary2": "Mise en place de tableaux de bord et de pipelines d’agrégation de données pour améliorer la visibilité sur les workflows.",
+      "impact": "Renforcement de la prise de décision data‑driven grâce à une vision centralisée."
     },
     "enterpriseCrm": {
       "title": "Modernisation d’un CRM d’entreprise",
       "tech": "Vue 3 · TypeScript · ASP.NET Core · API REST",
       "summary1": "Contribution à la modernisation d’une plateforme CRM multi‑tenant via le refactoring de composants hérités et l’amélioration des frontières architecturales.",
-      "summary2": "Introduction de structures frontend modulaires et renforcement de l’intégration des services via des systèmes backend REST.",
-      "impact": "Amélioration de la maintenabilité, de l’évolutivité et de la clarté architecturale."
+      "summary2": "Renforcement des schémas d’intégration entre services frontend et backend.",
+      "impact": "Amélioration de la maintenabilité et de la clarté architecturale."
     },
     "microFrontends": {
       "title": "Conception d’architecture micro‑frontend",
       "tech": "Vue 3 · TypeScript · Module Federation · CI/CD",
-      "summary1": "Conception d’une architecture frontend modulaire permettant un développement évolutif entre équipes et produits.",
-      "summary2": "Mise en place de systèmes de composants partagés et de frontières de domaine claires pour réduire le couplage et améliorer la durabilité du code à long terme.",
-      "impact": "Amélioration de l’efficacité du développement cross‑équipes et de l’évolutivité du frontend."
+      "summary1": "Conception d’une architecture frontend modulaire permettant un développement évolutif entre équipes.",
+      "summary2": "Mise en place de fondations UI partagées et de frontières de domaine claires pour réduire le couplage.",
+      "impact": "Amélioration de l’évolutivité du frontend et de l’efficacité cross‑équipes."
     }
   },
   "experience": {

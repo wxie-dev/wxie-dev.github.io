@@ -9,12 +9,12 @@ const expertises = computed(() => [
   {
     title: t('expertise.frontend.title'),
     description: t('expertise.frontend.description'),
-    technologies: ['Vue 3', 'Nuxt.js', 'TypeScript', 'Micro Frontends', 'Vuetify']
+    technologies: ['Vue 3', 'TypeScript', 'Micro Frontends', 'Design System']
   },
   {
     title: t('expertise.backend.title'),
     description: t('expertise.backend.description'),
-    technologies: ['ASP.NET Core', 'C#', 'REST APIs', 'LoopBack', 'Laravel', 'SQL Server']
+    technologies: ['ASP.NET Core', 'C#', 'REST APIs', 'SQL']
   },
   {
     title: t('expertise.ecommerce.title'),
@@ -24,7 +24,7 @@ const expertises = computed(() => [
   {
     title: t('expertise.devops.title'),
     description: t('expertise.devops.description'),
-    technologies: ['GitHub Actions', 'Docker', 'Kubernetes', 'AWS OpsWorks']
+    technologies: ['Docker', 'GitHub Actions', 'Kubernetes', 'Cloud']
   }
 ])
 </script>

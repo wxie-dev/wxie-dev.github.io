@@ -7,7 +7,7 @@
   "hero": {
     "name": "Wei Xie",
     "title": "Fullstack Engineer",
-    "positioning": "Designing modular enterprise platforms and scalable SaaS systems. Focused on modern frontend architecture with Vue 3 and TypeScript, paired with robust backend services in ASP.NET Core."
+    "positioning": "Building modular enterprise platforms and scalable SaaS systems.\nFocused on Vue 3 + TypeScript frontend architecture, backed by robust ASP.NET Core services."
   },
   "about": {
     "title": "About",
@@ -17,19 +17,19 @@
     "title": "Expertise",
     "frontend": {
       "title": "Frontend Architecture",
-      "description": "Designing scalable component ecosystems and modular frontend structures for enterprise applications.\n\nTechnologies: Vue 3 · Nuxt.js · TypeScript · Micro Frontends · Vuetify"
+      "description": "Designing scalable component ecosystems and modular frontend structures for enterprise applications."
     },
     "backend": {
       "title": "Backend Systems",
-      "description": "Building REST-based services and modular backend architectures using ASP.NET Core and C#.\n\nTechnologies: ASP.NET Core · C# · REST APIs · LoopBack · Laravel · SQL Server"
+      "description": "Building REST-based services and modular backend architectures using ASP.NET Core and C#."
     },
     "ecommerce": {
       "title": "E-commerce & Platforms",
-      "description": "Architecting and scaling transactional platforms with high availability requirements.\n\nTechnologies: Magento · AWS · Redis · Microservices"
+      "description": "Architecting and scaling transactional platforms with high availability requirements."
     },
     "devops": {
       "title": "DevOps & CI/CD",
-      "description": "Designing automated build and deployment pipelines to improve release reliability and operational stability.\n\nTechnologies: GitHub Actions · Docker · Kubernetes · AWS OpsWorks"
+      "description": "Designing automated build and deployment pipelines to improve release reliability and operational stability."
     }
   },
   "projects": {
@@ -38,30 +38,30 @@
     "solendroPlatform": {
       "title": "Solendro Platform Evolution",
       "tech": "Nuxt.js · LoopBack · Magento · AWS OpsWorks · Laravel",
-      "summary1": "Led the architectural evolution of an international e-commerce platform, transitioning from a legacy Magento system to a modern API-driven architecture using Nuxt.js and LoopBack.",
-      "summary2": "Progressively decoupled business logic and improved deployment workflows to increase maintainability and scalability.",
-      "impact": "Modernized platform architecture and supported international expansion (Spain & UK)."
+      "summary1": "Led the architectural evolution of an international e-commerce platform, transitioning from a legacy Magento system to a modern API-driven architecture.",
+      "summary2": "Improved modularity, deployment workflows, and long-term maintainability.",
+      "impact": "Modernized platform architecture and supported international expansion."
     },
     "dataAnalytics": {
       "title": "Data & Analytics Platform",
-      "tech": "Laravel · SQL · Data Aggregation",
-      "summary1": "Designed and implemented an internal analytics system to centralize operational and business reporting across multiple workflows.",
-      "summary2": "Built custom dashboards and data aggregation pipelines to improve system visibility and decision-making.",
-      "impact": "Increased operational transparency and data-driven insights."
+      "tech": "Laravel · MySQL · Data Aggregation",
+      "summary1": "Designed an internal analytics system to centralize operational and business reporting.",
+      "summary2": "Implemented dashboards and data aggregation pipelines to improve visibility across workflows.",
+      "impact": "Strengthened data-driven decision-making through centralized insights."
     },
     "enterpriseCrm": {
       "title": "Enterprise CRM Modernization",
       "tech": "Vue 3 · TypeScript · ASP.NET Core · REST APIs",
       "summary1": "Contributing to the modernization of a multi-tenant enterprise CRM platform by refactoring legacy components and improving architectural boundaries.",
-      "summary2": "Introduced modular frontend structures and strengthened service integration through REST-based backend systems.",
-      "impact": "Improved maintainability, scalability, and architectural clarity."
+      "summary2": "Strengthened integration patterns between frontend and backend services.",
+      "impact": "Improved maintainability and architectural clarity."
     },
     "microFrontends": {
       "title": "Micro Frontend Architecture Design",
       "tech": "Vue 3 · TypeScript · Module Federation · CI/CD",
-      "summary1": "Designed modular frontend architecture to enable scalable development across teams and products.",
-      "summary2": "Established shared component systems and clear domain boundaries to reduce coupling and improve long-term codebase sustainability.",
-      "impact": "Enhanced cross-team development efficiency and frontend scalability."
+      "summary1": "Designed modular frontend architecture to support scalable development across teams.",
+      "summary2": "Established shared UI foundations and clear domain boundaries to reduce coupling.",
+      "impact": "Improved frontend scalability and cross-team efficiency."
     }
   },
   "experience": {
