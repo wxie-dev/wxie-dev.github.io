@@ -44,8 +44,8 @@ const projects = computed(() => [
     </h2>
     <div class="max-w-4xl mx-auto space-y-8">
       <div
-        v-for="project in projects"
-        :key="project.title"
+        v-for="(project, index) in projects"
+        :key="index"
         class="bg-white p-6 md:p-8 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1"
       >
         <div class="flex items-start gap-4 mb-4">
