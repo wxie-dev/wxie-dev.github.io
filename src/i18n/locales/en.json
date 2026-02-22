@@ -71,6 +71,66 @@
       "impact": "Enabled tailored commerce capabilities and improved checkout reliability and performance."
     }
   },
+  "caseStudies": {
+    "common": {
+      "back": "Back to Projects",
+      "duration": "Duration",
+      "teamSize": "Team size",
+      "role": "Role",
+      "context": "Context",
+      "keyChallenges": "Key Challenges",
+      "architecturalDecisions": "Architectural Decisions",
+      "technicalImplementation": "Technical Implementation",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "architecturePattern": "Architecture pattern",
+      "integrations": "Integrations",
+      "impact": "Impact",
+      "lessonsLearned": "Lessons Learned",
+      "notFoundTitle": "Project not found",
+      "notFoundText": "This case study does not exist. Please return to the projects overview."
+    },
+    "enterpriseCrm": {
+      "title": "Enterprise CRM Modernization",
+      "summary": "Refactoring a large-scale CRM platform to clarify domain boundaries and improve long-term evolvability.",
+      "techStack": "Vue 3 · TypeScript · ASP.NET Core · REST APIs · SQL",
+      "duration": "Delivered modernization stream",
+      "teamSize": "Cross-functional engineering team",
+      "role": "Fullstack Engineer / Architecture contributor",
+      "context": "The platform supported multiple business domains within a shared enterprise environment. Over time, incremental evolution blurred ownership boundaries, increased coupling between modules, and slowed down feature delivery. The modernization effort focused on improving maintainability and architectural clarity while ensuring operational continuity.",
+      "keyChallenges": [
+        "Untangling tightly coupled legacy components while keeping the platform stable in production.",
+        "Clarifying domain ownership in a system that had grown organically over several years.",
+        "Aligning frontend and backend boundaries to reduce duplication and divergence.",
+        "Introducing architectural improvements without a full rewrite or big-bang migration.",
+        "Preserving performance and reliability while incrementally refactoring core areas."
+      ],
+      "architecturalDecisions": [
+        "Introduced domain-aligned frontend modules instead of purely technical layering.",
+        "Defined clear contracts between Vue frontends and ASP.NET Core APIs via typed DTOs.",
+        "Split read-optimized vs write-focused endpoints where it reduced complexity.",
+        "Applied a gradual strangler approach to move capabilities from legacy areas into clearer boundaries.",
+        "Documented service boundaries and data ownership to reduce cross-team coupling."
+      ],
+      "implementation": {
+        "frontend": "Vue 3 + TypeScript with domain-oriented modules, shared UI primitives, and stricter typing around API contracts.",
+        "backend": "ASP.NET Core services exposing REST APIs, with layered validation, application services, and persistence boundaries.",
+        "architecture": "Incremental modularization using a strangler approach, progressively reshaping capabilities into clearer boundaries.",
+        "integrations": "Integrated with authentication, reporting, and external data exchange through well-defined interfaces and synchronization mechanisms."
+      },
+      "impact": [
+        "Reduced regression risk by isolating changes within clearer domain modules.",
+        "Improved developer productivity by making feature ownership and code locations explicit.",
+        "Increased stability by aligning validation and rules across frontend and backend contracts.",
+        "Established a sustainable foundation for future platform evolution."
+      ],
+      "lessonsLearned": [
+        "Incremental modernization works best when each step clarifies boundaries rather than adding abstractions.",
+        "Shared UI components help, but clear domain boundaries matter even more in large enterprise systems.",
+        "Architecture decisions must remain visible and lightweight to be adopted under delivery pressure."
+      ]
+    }
+  },
   "experience": {
     "title": "Experience",
     "eudonet": {

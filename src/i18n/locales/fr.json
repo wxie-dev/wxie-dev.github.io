@@ -71,6 +71,26 @@
       "impact": "Mise en place de capacités e‑commerce sur mesure et amélioration de la fiabilité du checkout et des performances."
     }
   },
+  "caseStudies": {
+    "common": {
+      "back": "Retour aux projets",
+      "duration": "Durée",
+      "teamSize": "Taille d’équipe",
+      "role": "Rôle",
+      "context": "Contexte",
+      "keyChallenges": "Principaux défis",
+      "architecturalDecisions": "Décisions architecturales",
+      "technicalImplementation": "Mise en œuvre technique",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "architecturePattern": "Schéma d’architecture",
+      "integrations": "Intégrations",
+      "impact": "Impact",
+      "lessonsLearned": "Leçons apprises",
+      "notFoundTitle": "Projet introuvable",
+      "notFoundText": "Cette étude de cas n’existe pas. Veuillez revenir à la liste des projets."
+    }
+  },
   "experience": {
     "title": "Expérience",
     "eudonet": {

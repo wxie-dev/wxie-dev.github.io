@@ -2,36 +2,44 @@
 import SectionWrapper from './SectionWrapper.vue'
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { RouterLink } from 'vue-router'
 
 const { t } = useI18n()
 
-const projects = computed(() => [
-  // Order:
-  // Enterprise CRM Modernization
+interface ProjectCard {
+  title: string
+  tech: string
+  summary1: string
+  summary2: string
+  impact: string
+  slug?: string
+}
+
+const projects = computed<ProjectCard[]>(() => [
   {
     title: t('projects.enterpriseCrm.title'),
     tech: t('projects.enterpriseCrm.tech'),
     summary1: t('projects.enterpriseCrm.summary1'),
     summary2: t('projects.enterpriseCrm.summary2'),
-    impact: t('projects.enterpriseCrm.impact')
+    impact: t('projects.enterpriseCrm.impact'),
+    slug: 'enterprise-crm-modernization'
   },
-  // Micro Frontend Architecture
   {
     title: t('projects.microFrontends.title'),
     tech: t('projects.microFrontends.tech'),
     summary1: t('projects.microFrontends.summary1'),
     summary2: t('projects.microFrontends.summary2'),
-    impact: t('projects.microFrontends.impact')
+    impact: t('projects.microFrontends.impact'),
+    slug: 'microfrontend-architecture'
   },
-  // Solendro Platform Evolution
   {
     title: t('projects.solendroPlatform.title'),
     tech: t('projects.solendroPlatform.tech'),
     summary1: t('projects.solendroPlatform.summary1'),
     summary2: t('projects.solendroPlatform.summary2'),
-    impact: t('projects.solendroPlatform.impact')
+    impact: t('projects.solendroPlatform.impact'),
+    slug: 'solendro-platform-evolution'
   },
-  // Data Analytics Platform
   {
     title: t('projects.dataAnalytics.title'),
     tech: t('projects.dataAnalytics.tech'),
@@ -39,13 +47,13 @@ const projects = computed(() => [
     summary2: t('projects.dataAnalytics.summary2'),
     impact: t('projects.dataAnalytics.impact')
   },
-  // Commerce Platform Extensions
   {
     title: t('projects.commerceExtensions.title'),
     tech: t('projects.commerceExtensions.tech'),
     summary1: t('projects.commerceExtensions.summary1'),
     summary2: t('projects.commerceExtensions.summary2'),
-    impact: t('projects.commerceExtensions.impact')
+    impact: t('projects.commerceExtensions.impact'),
+    slug: 'commerce-platform-evolution'
   }
 ])
 </script>
@@ -56,28 +64,53 @@ const projects = computed(() => [
       {{ t('projects.title') }}
     </h2>
     <div class="max-w-4xl mx-auto space-y-8">
-      <div
-        v-for="(project, index) in projects"
-        :key="index"
-        class="bg-white p-6 md:p-8 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1"
-      >
-        <div class="flex items-start gap-4 mb-4">
-          <div>
-            <h3 class="text-lg md:text-xl font-bold text-black mb-1">
-              {{ project.title }}
-            </h3>
-            <p class="text-sm md:text-base text-gray-500">
-              {{ project.tech }}
-            </p>
+      <div v-for="(project, index) in projects" :key="index">
+        <RouterLink
+          v-if="project.slug"
+          :to="{ name: 'project-case-study', params: { slug: project.slug } }"
+          class="block bg-white p-6 md:p-8 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1"
+        >
+          <div class="flex items-start gap-4 mb-4">
+            <div>
+              <h3 class="text-lg md:text-xl font-bold text-black mb-1">
+                {{ project.title }}
+              </h3>
+              <p class="text-sm md:text-base text-gray-500">
+                {{ project.tech }}
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="space-y-3 text-base text-black leading-relaxed mb-4">
-          <p>{{ project.summary1 }}</p>
-          <p>{{ project.summary2 }}</p>
-        </div>
-        <div class="text-sm text-gray-500 pt-4 border-t border-gray-100">
-          <span class="font-semibold text-black">{{ t('projects.impact') }}:</span>
-          {{ project.impact }}
+          <div class="space-y-3 text-base text-black leading-relaxed mb-4">
+            <p>{{ project.summary1 }}</p>
+            <p>{{ project.summary2 }}</p>
+          </div>
+          <div class="text-sm text-gray-500 pt-4 border-t border-gray-100">
+            <span class="font-semibold text-black">{{ t('projects.impact') }}:</span>
+            {{ project.impact }}
+          </div>
+        </RouterLink>
+        <div
+          v-else
+          class="bg-white p-6 md:p-8 rounded-lg shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1"
+        >
+          <div class="flex items-start gap-4 mb-4">
+            <div>
+              <h3 class="text-lg md:text-xl font-bold text-black mb-1">
+                {{ project.title }}
+              </h3>
+              <p class="text-sm md:text-base text-gray-500">
+                {{ project.tech }}
+              </p>
+            </div>
+          </div>
+          <div class="space-y-3 text-base text-black leading-relaxed mb-4">
+            <p>{{ project.summary1 }}</p>
+            <p>{{ project.summary2 }}</p>
+          </div>
+          <div class="text-sm text-gray-500 pt-4 border-t border-gray-100">
+            <span class="font-semibold text-black">{{ t('projects.impact') }}:</span>
+            {{ project.impact }}
+          </div>
         </div>
       </div>
     </div>
