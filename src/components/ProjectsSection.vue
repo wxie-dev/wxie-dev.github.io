@@ -6,20 +6,8 @@ import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 
 const projects = computed(() => [
-  {
-    title: t('projects.solendroPlatform.title'),
-    tech: t('projects.solendroPlatform.tech'),
-    summary1: t('projects.solendroPlatform.summary1'),
-    summary2: t('projects.solendroPlatform.summary2'),
-    impact: t('projects.solendroPlatform.impact')
-  },
-  {
-    title: t('projects.dataAnalytics.title'),
-    tech: t('projects.dataAnalytics.tech'),
-    summary1: t('projects.dataAnalytics.summary1'),
-    summary2: t('projects.dataAnalytics.summary2'),
-    impact: t('projects.dataAnalytics.impact')
-  },
+  // Order:
+  // Enterprise CRM Modernization
   {
     title: t('projects.enterpriseCrm.title'),
     tech: t('projects.enterpriseCrm.tech'),
@@ -27,12 +15,37 @@ const projects = computed(() => [
     summary2: t('projects.enterpriseCrm.summary2'),
     impact: t('projects.enterpriseCrm.impact')
   },
+  // Micro Frontend Architecture
   {
     title: t('projects.microFrontends.title'),
     tech: t('projects.microFrontends.tech'),
     summary1: t('projects.microFrontends.summary1'),
     summary2: t('projects.microFrontends.summary2'),
     impact: t('projects.microFrontends.impact')
+  },
+  // Solendro Platform Evolution
+  {
+    title: t('projects.solendroPlatform.title'),
+    tech: t('projects.solendroPlatform.tech'),
+    summary1: t('projects.solendroPlatform.summary1'),
+    summary2: t('projects.solendroPlatform.summary2'),
+    impact: t('projects.solendroPlatform.impact')
+  },
+  // Data Analytics Platform
+  {
+    title: t('projects.dataAnalytics.title'),
+    tech: t('projects.dataAnalytics.tech'),
+    summary1: t('projects.dataAnalytics.summary1'),
+    summary2: t('projects.dataAnalytics.summary2'),
+    impact: t('projects.dataAnalytics.impact')
+  },
+  // Commerce Platform Extensions
+  {
+    title: t('projects.commerceExtensions.title'),
+    tech: t('projects.commerceExtensions.tech'),
+    summary1: t('projects.commerceExtensions.summary1'),
+    summary2: t('projects.commerceExtensions.summary2'),
+    impact: t('projects.commerceExtensions.impact')
   }
 ])
 </script>

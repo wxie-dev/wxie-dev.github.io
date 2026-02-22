@@ -35,20 +35,6 @@
   "projects": {
     "title": "Projets sélectionnés",
     "impact": "Impact",
-    "solendroPlatform": {
-      "title": "Évolution de la plateforme Solendro",
-      "tech": "Nuxt.js · LoopBack · Magento · AWS OpsWorks · Laravel",
-      "summary1": "Pilotage de l’évolution architecturale d’une plateforme e-commerce internationale, en passant d’un système Magento hérité à une architecture moderne orientée API.",
-      "summary2": "Amélioration de la modularité, des workflows de déploiement et de la maintenabilité à long terme.",
-      "impact": "Modernisation de l’architecture de la plateforme et soutien à l’expansion internationale."
-    },
-    "dataAnalytics": {
-      "title": "Plateforme Data & Analytics",
-      "tech": "Laravel · MySQL · Agrégation de données",
-      "summary1": "Conception d’un système d’analytics interne pour centraliser les rapports opérationnels et métier.",
-      "summary2": "Mise en place de tableaux de bord et de pipelines d’agrégation de données pour améliorer la visibilité sur les workflows.",
-      "impact": "Renforcement de la prise de décision data‑driven grâce à une vision centralisée."
-    },
     "enterpriseCrm": {
       "title": "Modernisation d’un CRM d’entreprise",
       "tech": "Vue 3 · TypeScript · ASP.NET Core · API REST",
@@ -62,6 +48,27 @@
       "summary1": "Conception d’une architecture frontend modulaire permettant un développement évolutif entre équipes.",
       "summary2": "Mise en place de fondations UI partagées et de frontières de domaine claires pour réduire le couplage.",
       "impact": "Amélioration de l’évolutivité du frontend et de l’efficacité cross‑équipes."
+    },
+    "solendroPlatform": {
+      "title": "Évolution de la plateforme Solendro",
+      "tech": "Nuxt.js · LoopBack · Magento · AWS OpsWorks",
+      "summary1": "Pilotage de l’évolution architecturale d’une plateforme e-commerce internationale, en passant d’un système Magento hérité à une architecture moderne orientée API.",
+      "summary2": "Amélioration de la modularité, des workflows de déploiement et de la maintenabilité à long terme.",
+      "impact": "Modernisation de l’architecture de la plateforme et soutien à l’expansion internationale."
+    },
+    "dataAnalytics": {
+      "title": "Plateforme Data & Analytics",
+      "tech": "Laravel · MySQL · Agrégation de données",
+      "summary1": "Conception d’un système d’analytics interne pour centraliser les rapports opérationnels et métier.",
+      "summary2": "Mise en place de tableaux de bord et de pipelines d’agrégation de données pour améliorer la visibilité sur les workflows.",
+      "impact": "Renforcement de la prise de décision data‑driven grâce à une vision centralisée."
+    },
+    "commerceExtensions": {
+      "title": "Extensions de plateforme e‑commerce (WordPress / WooCommerce)",
+      "tech": "WordPress · WooCommerce · PHP · Plugins · Paiements · Performance",
+      "summary1": "Réalisation et extension de plateformes e‑commerce basées sur WordPress pour des clients privés, incluant le développement de plugins, des intégrations de paiement et l’optimisation des performances.",
+      "summary2": "Références sélectionnées disponibles sur demande.",
+      "impact": "Mise en place de capacités e‑commerce sur mesure et amélioration de la fiabilité du checkout et des performances."
     }
   },
   "experience": {

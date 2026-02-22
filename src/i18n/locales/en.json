@@ -35,20 +35,6 @@
   "projects": {
     "title": "Selected Projects",
     "impact": "Impact",
-    "solendroPlatform": {
-      "title": "Solendro Platform Evolution",
-      "tech": "Nuxt.js · LoopBack · Magento · AWS OpsWorks · Laravel",
-      "summary1": "Led the architectural evolution of an international e-commerce platform, transitioning from a legacy Magento system to a modern API-driven architecture.",
-      "summary2": "Improved modularity, deployment workflows, and long-term maintainability.",
-      "impact": "Modernized platform architecture and supported international expansion."
-    },
-    "dataAnalytics": {
-      "title": "Data & Analytics Platform",
-      "tech": "Laravel · MySQL · Data Aggregation",
-      "summary1": "Designed an internal analytics system to centralize operational and business reporting.",
-      "summary2": "Implemented dashboards and data aggregation pipelines to improve visibility across workflows.",
-      "impact": "Strengthened data-driven decision-making through centralized insights."
-    },
     "enterpriseCrm": {
       "title": "Enterprise CRM Modernization",
       "tech": "Vue 3 · TypeScript · ASP.NET Core · REST APIs",
@@ -62,6 +48,27 @@
       "summary1": "Designed modular frontend architecture to support scalable development across teams.",
       "summary2": "Established shared UI foundations and clear domain boundaries to reduce coupling.",
       "impact": "Improved frontend scalability and cross-team efficiency."
+    },
+    "solendroPlatform": {
+      "title": "Solendro Platform Evolution",
+      "tech": "Nuxt.js · LoopBack · Magento · AWS OpsWorks",
+      "summary1": "Led the architectural evolution of an international e-commerce platform, transitioning from a legacy Magento system to a modern API-driven architecture.",
+      "summary2": "Improved modularity, deployment workflows, and long-term maintainability.",
+      "impact": "Modernized platform architecture and supported international expansion."
+    },
+    "dataAnalytics": {
+      "title": "Data & Analytics Platform",
+      "tech": "Laravel · MySQL · Data Aggregation",
+      "summary1": "Designed an internal analytics system to centralize operational and business reporting.",
+      "summary2": "Implemented dashboards and data aggregation pipelines to improve visibility across workflows.",
+      "impact": "Strengthened data-driven decision-making through centralized insights."
+    },
+    "commerceExtensions": {
+      "title": "Commerce Platform Extensions (WordPress / WooCommerce)",
+      "tech": "WordPress · WooCommerce · PHP · Plugins · Payments · Performance",
+      "summary1": "Delivered and extended WordPress-based e-commerce platforms for private clients, including custom plugin development, payment integrations, and performance optimization.",
+      "summary2": "Selected implementations available upon request.",
+      "impact": "Enabled tailored commerce capabilities and improved checkout reliability and performance."
     }
   },
   "experience": {
